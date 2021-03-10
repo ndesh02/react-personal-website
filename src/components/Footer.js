@@ -32,34 +32,14 @@ function Footer() {
                     </div>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/react-personal-website'>Test</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/react-personal-website'>Test</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/'>Test</Link>
-                    </div>
-                    <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <h2>About Us</h2>
                         <Link to='/'>Test</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
                         <Link to='/'>Test</Link>
                     </div>
-                    <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/'>Test</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/'>Test</Link>
-                    </div>
-                </div>
+                    
+                    
                 </div>
             </div>
             <section className='social-media'>
@@ -71,30 +51,30 @@ function Footer() {
                     </div>
                     <small className='website-rights'>TRVL 2021</small>
                     <div className='social-icons'>
-                        <Link
+                        <a
                             className='social-icon-link facebook'
-                            to='/'
+                            href='https://www.facebook.com/profile.php?id=100038554506189'
                             target='_blank'
                             aria-label='Facebook'
                             >
                             <i className='fab fa-facebook-f'/>
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className='social-icon-link instagram'
-                            to='/'
+                            href='https://www.instagram.com/ndesh02/'
                             target='_blank'
                             aria-label='Instagram'
                             >
                             <i className='fab fa-instagram'/>
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className='social-icon-link linkedin'
-                            to='/'
+                            href='https://www.linkedin.com/in/neha-deshmukh-1117951b0/'
                             target='_blank'
                             aria-label='Linkedin'
                             >
                             <i className='fab fa-linkedin-in'/>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
