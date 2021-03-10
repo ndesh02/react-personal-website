@@ -28,15 +28,15 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/services'>Test</Link>
+                        <Link to='/react-personal-website/services'>Test</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/'>Test</Link>
+                        <Link to='/react-personal-website'>Test</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/'>Test</Link>
+                        <Link to='/react-personal-website'>Test</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
