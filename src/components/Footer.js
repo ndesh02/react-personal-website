@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription'>
+            {/* <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Join
                 </p>
@@ -23,12 +23,12 @@ function Footer() {
                     </form>
                     
                 </div>
-            </section>
+            </section> */}
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/react-personal-website/services'>Test</Link>
+                        <Link to='/'>Test</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
@@ -46,10 +46,10 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className="footer-logo">
                         <Link to='/' className='social-logo'>
-                            TRVL <i className='fab fa-typo3'/>
+                        <i className='fas fa-laptop-code'/>&#160; Neha 
                         </Link>
                     </div>
-                    <small className='website-rights'>TRVL 2021</small>
+                    <small className='website-rights'>Neha Deshmukh 2021</small>
                     <div className='social-icons'>
                         <a
                             className='social-icon-link facebook'
@@ -74,6 +74,14 @@ function Footer() {
                             aria-label='Linkedin'
                             >
                             <i className='fab fa-linkedin-in'/>
+                        </a>
+                        <a
+                            className='social-icon-link github'
+                            href='https://github.com/ndesh02'
+                            target='_blank'
+                            aria-label='Github'
+                            >
+                            <i className='fab fa-github'/>
                         </a>
                     </div>
                 </div>

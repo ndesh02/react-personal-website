@@ -1,3 +1,10 @@
+/* #0b132b
+#2a3a4b
+#3a506b
+#a0d2db
+#ffffff */
+
+
 :root{
     --primary: #fff;
 
@@ -12,7 +19,7 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: #0b132b;
     border: 1px solid var(--primary);
 }
 
@@ -36,7 +43,7 @@
 }
 .btn--medium:hover, .btn--large:hover{
     background: #fff;
-    color: #242424;
+    color: #0b132b;
     transition: 250ms;
     transition: all 0.3s ease-out;    
 }

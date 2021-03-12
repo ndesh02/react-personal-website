@@ -1,3 +1,8 @@
+/* #0b132b
+#2a3a4b
+#3a506b
+#a0d2db
+#ffffff */
 .cards {
   padding: 4rem;
   background: #fff;
@@ -66,7 +71,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #2a3a4b;
   box-sizing: border-box;
 }
 

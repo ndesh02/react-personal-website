@@ -15,15 +15,18 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          linkTo='/projects'
         >
-          GET STARTED
+          PROJECTS
         </Button>
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          linkTo='/resume'
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          RESUME
+          {/* <i className='far fa-play-circle' /> */}
         </Button>
       </div>
     </div>
