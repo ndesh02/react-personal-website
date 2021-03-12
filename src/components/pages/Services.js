@@ -1,6 +1,14 @@
 import React from 'react'
 import '../../App.js'
+import './Services.css'
+import Cards from '../Cards';
+import Footer from '../Footer';
 
 export default function Services(){
-    return<h1 className='services'>Services</h1>;
+    return(
+        <div className='services-container'>
+            <h1>Services</h1>
+            <Footer/>
+        </div>
+    );
 }
