@@ -89,9 +89,30 @@ video {
   .btns .btn{
       margin: 6px;
   }
-  .fa-play-circle{
-      margin-left: 4px;
+  .about-me-container{
+    background-color: #a0d2db;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
   }
+  
+  .about-me-text{
+    margin-top: 20px;
+  }
+  #about-me-title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+  }
+  #pic-of-me{
+    width: 20%;
+    margin: 20px;
+    border-radius: 10%;
+    float: left;
+  }
+
   @media screen and (max-width: 960px){
     .container > h1{
         color: #fff;
@@ -114,5 +135,18 @@ video {
     }
     .btn {
         width: 100%;
+    }
+    #pic-of-me{
+      clear:left;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+    }
+    .about-me-text{
+      float: left;
+      padding-left: 5%;
+      padding-right: 5%;
     }
   }

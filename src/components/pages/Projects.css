@@ -1,10 +1,4 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-  }
+
 /* #0b132b
 #2a3a4b
 #3a506b
@@ -21,48 +15,58 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
   }
+  .projects-list{
+    background-color: #a0d2db;
+    position: relative;
+    width: 100%;
+    min-height: fit-content;
+    overflow: hidden;
+  }
   
-  .projects-container > h1{
-      color: #fff;
-      font-size: 100px;
-      margin-top: -100px;
+  .project-text{
+    margin-top: 20px;
   }
-  .projects-container>p{
-      margin-top: 8px;
-      color: #fff;
-      font-size: 32px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  .project-title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 1%;
   }
-  .projects-btns{
-      margin-top: 32px;
+  .project-pic{
+    width: 20%;
+    margin: 20px;
+    border-radius: 5%;
+    float: left;
   }
-  .projects-btns .btn{
-      margin: 6px;
+  .projects-body{
+      height: 600px;
   }
-  .fa-play-circle{
-      margin-left: 4px;
+  #project-1{
+      background-color: #fff;
   }
+  #project-2{
+      background-color:#a0d2db;
+  }
+  #project-3{
+    background-color: #3a506b;
+}
   @media screen and (max-width: 960px){
-    .projects-container > h1{
-        color: #fff;
-        font-size: 70px;
-        margin-top: -150px;
-    }
+    
   }
   @media screen and (max-width: 768px){
-    .projects-container > h1{
-        color: #fff;
-        font-size: 50px;
-        margin-top: -100px;
-    }
-    .projects-container>p{
-        font-size: 30px;
-    }
-    .btn-mobile {
+    .project-pic{
+        clear:left;
+        width: 80%;
         display: block;
-        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
-    .btn {
-        width: 100%;
+    .project-text{
+        float: left;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .projects-body{
+        height: 1000px;
     }
   }
