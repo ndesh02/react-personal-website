@@ -22,47 +22,58 @@ video {
     object-fit: contain;
   }
   
-  .resume-container > h1{
-      color: #fff;
-      font-size: 100px;
-      margin-top: -100px;
+  .resume-list{
+    background-color: #a0d2db;
+    position: relative;
+    width: 100%;
+    min-height: fit-content;
+    overflow: hidden;
   }
-  .resume-container>p{
-      margin-top: 8px;
-      color: #fff;
-      font-size: 32px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  .resume-text{
+    margin-top: 20px;
   }
-  .resume-btns{
-      margin-top: 32px;
+  .resume-title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 1%;
   }
-  .resume-btns .btn{
-      margin: 6px;
+  .resume-pic{
+    width: 20%;
+    margin: 20px;
+    border-radius: 5%;
+    float: left;
   }
-  .fa-play-circle{
-      margin-left: 4px;
+  .resume-body{
+      height: 600px;
   }
+  #resume-1{
+      background-color: #fff;
+  }
+  #resume-2{
+      background-color:#a0d2db;
+  }
+  #resume-3{
+    background-color: #3a506b;
+}
   @media screen and (max-width: 960px){
-    .resume-container > h1{
-        color: #fff;
-        font-size: 70px;
-        margin-top: -150px;
-    }
+    
   }
   @media screen and (max-width: 768px){
-    .resume-container > h1{
-        color: #fff;
-        font-size: 50px;
-        margin-top: -100px;
-    }
-    .resume-container>p{
-        font-size: 30px;
-    }
-    .btn-mobile {
+    .resume-pic{
+        clear:left;
+        width: 80%;
         display: block;
-        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
-    .btn {
-        width: 100%;
+    .resume-text{
+        float: left;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .resume-body{
+        height: 1000px;
     }
   }
