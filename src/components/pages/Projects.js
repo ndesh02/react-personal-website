@@ -3,7 +3,10 @@ import '../../App.js';
 import './Pages.css';
 import Footer from '../Footer';
 import './Projects.css'
-import picOfMe from './me.jpg';
+import foxProj2 from './foxProj2.jpg'
+import foxProj3 from './foxProj3.jpg';
+import hackProj from './me.jpg'
+import websiteProj from './scrnshtWebsite.png'
 
 export default function Products(){
     return(
@@ -16,7 +19,7 @@ export default function Products(){
             
             <div className='projects-body' id="project-1">
               <h1 className="project-title">About Me</h1>
-              <img src={picOfMe} alt="Project 1" className='project-pic'/>
+              <img src={foxProj3} alt="Project 1" className='project-pic'/>
               <p className='project-text'>
                   agtfzawyrhieow euiwatoertueritghiwrtohreio biart arut ar
                   auwetihiuett utghraeitgh rtuirtgreatureiugthaeruitghroeithgre
@@ -32,7 +35,7 @@ export default function Products(){
 
             <div className='projects-body' id="project-2">
               <h1 className="project-title">About Me</h1>
-              <img src={picOfMe} alt="Project 2"  className='project-pic'/>
+              <img src={websiteProj} alt="Project 2"  className='project-pic'/>
               <p className='project-text'>
                   agtfzawyrhieow euiwatoertueritghiwrtohreio biart arut ar
                   auwetihiuett utghraeitgh rtuirtgreatureiugthaeruitghroeithgre
@@ -48,7 +51,7 @@ export default function Products(){
 
             <div className='projects-body' id="project-3">
               <h1 className="project-title">About Me</h1>
-              <img src={picOfMe} alt="Project 3"  className='project-pic'/>
+              <img src={hackProj} alt="Project 3"  className='project-pic'/>
               <p className='project-text'>
                   agtfzawyrhieow euiwatoertueritghiwrtohreio biart arut ar
                   auwetihiuett utghraeitgh rtuirtgreatureiugthaeruitghroeithgre
