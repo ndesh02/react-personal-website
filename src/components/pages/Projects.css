@@ -49,7 +49,8 @@
   }
   #project-3{
     background-color: #3a506b;
-}
+  }
+
   @media screen and (max-width: 960px){
     
   }
@@ -70,4 +71,7 @@
     .projects-body{
         height: 1000px;
     }
+  }
+  a {
+    color: black;
   }

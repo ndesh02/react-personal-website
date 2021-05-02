@@ -12,11 +12,11 @@ export default function ContactMe(){
         <h2> </h2>
         <h2>Phone: 289-926-7906</h2>
         <h2></h2>
-        <h2>Email: <a href='mailto:ndesh02@uwaterloo.ca'>ndesh02@uwaterloo.ca</a></h2>
+        <h2>Email: <a className='contact-links' href='mailto:ndesh02@uwaterloo.ca'>ndesh02@uwaterloo.ca</a></h2>
         <h2></h2>
-        <h2>Linkedin: <a target = '_blank' href='https://www.linkedin.com/in/neha-deshmukh-1117951b0/'>linkedin.com/in/neha-deshmukh-1117951b0/</a></h2>
+        <h2>Linkedin: <a className='contact-links' target = '_blank' href='https://www.linkedin.com/in/neha-deshmukh-1117951b0/'>linkedin.com/in/neha-deshmukh-1117951b0/</a></h2>
         <h2></h2>
-        <h2>Github: <a target='_blank' href = 'https://github.com/ndesh02'>github.com/ndesh02</a></h2>
+        <h2>Github: <a className='contact-links' target='_blank' href = 'https://github.com/ndesh02'>github.com/ndesh02</a></h2>
         </div>
         
         <Footer/>

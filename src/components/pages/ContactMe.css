@@ -46,7 +46,7 @@ video {
     color: white;
     margin-bottom: 8px;   
   }
-  a {
+  .contact-links {
       color: white;
       text-decoration: none;
   }

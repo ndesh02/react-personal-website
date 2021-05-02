@@ -31,12 +31,13 @@ video {
   }
   
   .resume-text{
-    margin-top: 20px;
+    margin: 30px;
   }
   .resume-title{
     padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 1%;
+
   }
   .resume-pic{
     width: 20%;
@@ -47,14 +48,23 @@ video {
   .resume-body{
       height: 600px;
   }
+
   #resume-1{
       background-color: #fff;
+      height: 400px;
   }
   #resume-2{
-      background-color:#a0d2db;
+      background-color:#2a3a4b;
+      height: 500px;
+      
   }
   #resume-3{
     background-color: #3a506b;
+    height: 900px;
+}
+#resume-4{
+  background-color:#a0d2db;
+  height: 300px;
 }
   @media screen and (max-width: 960px){
     
