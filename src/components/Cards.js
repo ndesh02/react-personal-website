@@ -3,8 +3,10 @@ import CardItem from './CardItem';
 import './Cards.css';
 import foxProj from './pages/foxProj.jpg';
 import ideasClinic from './pages/ideasClinic.jpg';
-import image8 from './img-8.jpg';
-import image9 from './img-8.jpg';
+import som from './pages/som.jpg';
+import website from './pages/scrnshtWebsite.png';
+import image9 from './pages/me.jpg'
+import robotics from './pages/robotics.png'
 function Cards() {
     return (
         <div className='cards'>
@@ -19,13 +21,13 @@ function Cards() {
               path='/projects'
             />
             <CardItem
-              src={ideasClinic}
-              text='Engineering Ideas Clinic Reasearch Assistant at the University of Waterloo'
+              src={robotics}
+              text='Newmarket High School Robotics President in 2020 - 2021'
               label='Experience'
               path='/resume'
             />
             <CardItem
-              src={image8}
+              src={website}
               text='Mobile responsive website created using React framework'
               label='Project'
               path='/projects'
@@ -33,23 +35,25 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={image8}
+              src={som}
               text='Assistant teacher at Spirit of Math for 4 years'
               label='Experience'
               path='/resume'
             />
             <CardItem
+              src={ideasClinic}
+              text='Engineering Ideas Clinic Reasearch Assistant at the University of Waterloo'
+              label='Experience'
+              path='/resume'
+            />
+            {/* <CardItem
               src={image9}
               text=' -- created at RUHacks'
               label='Hackathon'
               path='/projects'
-            />
-            <CardItem
-              src={image9}
-              text='Newmarket High School Robotics President in 2020 - 2021'
-              label='Experience'
-              path='/resume'
-            />
+            /> */}
+            
+
             
           </ul>
         </div>

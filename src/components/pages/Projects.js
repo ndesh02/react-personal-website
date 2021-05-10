@@ -39,7 +39,7 @@ export default function Products(){
                   The levels get increasingly difficult and the number of bats on each increases as the player progresses.
               </p>
               <p className='project-text'>
-                  The source code can be found on my github at <a target='_blank' href='https://github.com/ndesh02/Fox-VS-Bats'>github.com/ndesh02/Fox-Vs-Bats</a>
+                  The source code can be found on my github at <a target='_blank' href='https://github.com/ndesh02/Fox-VS-Bats'>github.com/ndesh02/Fox-Vs-Bats</a> and the playable game can be found under the exports folder.
               </p>
             </div>
 
@@ -59,11 +59,11 @@ export default function Products(){
                   A combination of HTML, CSS and Javacript was used to create this website.
               </p>
               <p className='project-text'>
-                  The source code can be found on my github at <a target='_blank' href='https://github.com/ndesh02/react-personal-website'>github.com/ndesh02/react-personal-website</a>
+                  The source code can be found on my github at <a target='_blank' href='https://github.com/ndesh02/react-personal-website'>github.com/ndesh02/react-personal-website</a>.
               </p>
             </div>
 
-            <div className='projects-body' id="project-3">
+            {/* <div className='projects-body' id="project-3">
               <h1 className="project-title">About Me</h1>
               <img src={hackProj} alt="Project 3"  className='project-pic'/>
               <p className='project-text'>
@@ -77,7 +77,7 @@ export default function Products(){
                   a iurth urotrueithreuiohrf
               </p>
               <h2 className='project-text'>gsytryrt</h2>
-            </div>
+            </div> */}
 
         </div>
         <Footer/>
